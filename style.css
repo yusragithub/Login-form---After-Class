@@ -1,3 +1,20 @@
 h1 {
     text-align: center;
+    color: #170342;
 }
+
+body {
+    background-color: #ddd1f6;
+    border: 10px double #5119c9; 
+    margin: 30px;
+}
+
+div {
+    color: #310d7e;
+}
+
+button {
+    background-color: #4f3686;
+    color: #ffffff;
+}
+

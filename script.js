@@ -5,10 +5,10 @@ function validate(e) {
 const email = document.getElementById('email').value;
 const pass = document.getElementById('password').value;
 const tel = document.getElementById('tel').value;
-const color = get.getElementById('fav_color').value;
-const age = get.getElementById('age').value;
-const date = get.getElementById('birthday').value;
-const msgBox = getElementById('message');
+const color = document.getElementById('fav_color').value;
+const age = document.getElementById('age').value;
+const date = document.getElementById('birthday').value;
+const msgBox = document.getElementById('message');
 
 let message = '';
 

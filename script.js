@@ -18,28 +18,28 @@ if (email === '') {
 }
 else if (pass === '') {
     message = 'Your password must be of 1-12 letters.';
-    msgBox.style.color = red;
+    msgBox.style.color = 'red';
 }
 else if (tel === '') {
     message = 'Please enter your phone number.';
-    msgBox.style.color = red;
+    msgBox.style.color = 'red';
 }
 else if (color === '') {
     message = 'Please choose your favourite color';
-    msgBox.style.color = red;
+    msgBox.style.color = 'red';
 }
 else if (age === '') {
     message = 'Your age must be between 25-55';
-    msgBox.style.color = red;
+    msgBox.style.color = 'red';
 }
 else if (date === '') {
     message = 'Please enter your date of birth';
-    msgBox.style.color = red;
+    msgBox.style.color = 'red';
 }
 
 else {
     message = 'Login Successful!';
-    msgBox.style.color = green;
+    msgBox.style.color = 'green';
 }
 
 msgBox.innerText = message;

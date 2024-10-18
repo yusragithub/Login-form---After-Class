@@ -1,6 +1,6 @@
 function validate(e) {
     e.preventDefault();
-}
+
 
 const email = document.getElementById('email').value;
 const pass = document.getElementById('password').value;
@@ -14,7 +14,7 @@ let message = '';
 
 if (email === '') {
     message = 'Please enter your email.';
-    msgBox.style.color = red;
+    msgBox.style.color = 'red';
 }
 else if (pass === '') {
     message = 'Your password must be of 1-12 letters.';
@@ -43,3 +43,4 @@ else {
 }
 
 msgBox.innerText = message;
+}

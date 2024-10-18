@@ -41,6 +41,5 @@ else {
     message = 'Login Successful!';
     msgBox.style.color = 'green';
 }
-
 msgBox.innerText = message;
 }
